@@ -1,0 +1,48 @@
+
+.section7 {
+    background-color: #EEEFFB;
+
+}
+.section7 a {
+    color: #8A8FB9;
+}
+.section7 .box {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 39px;
+}
+
+.section7 .box .item{
+    display: flex;
+    flex-direction: column;
+    row-gap:25px ;
+    align-items: flex-start;
+    padding-bottom: 40px;
+}
+.section7 .box .item1{
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap:25px ;
+    align-items: flex-start;
+    padding-bottom: 40px;
+}
+.section7 .box .item1 img{
+    width: fit-content;
+}
+input[type="email"] {
+    border: none;
+    height: 30px;
+    width: 200px;
+}
+.section7 button {
+    height: 29px;
+    border: none;
+    width: 91px;
+    background-color: var(--mc);
+    border-radius: 3px;
+    color: white;
+}

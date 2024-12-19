@@ -1,0 +1,53 @@
+.section6{
+    padding-top: 30px;
+}
+.section6 h1 {
+    color: var(--hc);
+    text-align: center;
+    padding: 40px 0;
+}
+.section6 h2 {
+    color: var(--hc);
+    text-align: center;
+    padding: 40px 0;
+}
+.section6 .items{
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+}
+.section6 .box{
+    min-width: 175px;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.section6 .box p{
+    color: #72718F ;
+}
+.section6 .box a{
+    color:  var(--hc);
+    text-decoration: underline;
+    padding-top: 20px;
+}
+.section6 .box .victor{
+
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 20px;
+}
+.section6 .box .victor2{
+    font-weight: bolder;
+    svg{
+        margin-right:5px;
+    }
+    display: flex;
+    flex-direction: row;
+}

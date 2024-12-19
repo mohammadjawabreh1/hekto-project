@@ -1,0 +1,66 @@
+
+/* start header  */
+header{
+    padding: 20px 0;
+}
+.logo {
+    display: flex
+;
+}
+header a:hover {
+    color: var(--mc);
+}
+header .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
+    align-self: end;
+}
+header .link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+header .link img{
+    opacity: 0;
+    transition: all 0.5s ;
+}
+header .link:hover img {
+    opacity: 1;
+}
+.search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+input[type="search"] {
+    height: 23px;
+    border-radius: 4px 0 0 4px;
+    border: #E7E6EF solid 2px;
+    border-right: none;
+}
+
+i.fa-solid.fa-magnifying-glass {
+    font-size: 14px;
+    padding: 4px;
+    height: 23px;
+    background-color: var(--mc);
+    border-radius: 0 4px 4px 0;
+    color: black;
+    cursor: pointer;
+    
+}
+header .list-d{
+    display: none;
+}
+header .fa-solid.fa-list-ul{
+    color: #1A0B5B;
+    size: 20px;
+    
+}
+/* end header ---------------------------- */

@@ -1,0 +1,43 @@
+.section1{
+    background-color: #F2F0FF;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+
+}
+.section1 .item1 {
+    
+    width: 20%;
+}
+.section1 .item2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 19px;
+    margin-top: 30px;
+    
+}
+.section1 .item3 {
+    width: 40%;
+    
+}
+.section1 .text1 {
+    color: var(--mc);
+}
+.section1 .text2 {
+    font-size: 24px;
+}
+.section1 .text3 {
+    color: #8A8FB9;
+}
+.section1 button {
+    background-color: var(--mc);
+    width: 79px;
+    height: 32px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
